@@ -1,0 +1,4 @@
+// Use this code to open all lines in file in form of list.
+
+import scala.io.Source
+val file_list = Source.fromFile("filename.txt").getLines.toList
